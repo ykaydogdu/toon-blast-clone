@@ -1,5 +1,4 @@
-# Dreamcase
-Dream Games Internship Case -- Yağız Kaan Aydoğdu
+A simplified toon blast clone in unity.
 
 # How to Run
 1. Clone the repository.
