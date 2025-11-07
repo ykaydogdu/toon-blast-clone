@@ -117,7 +117,7 @@ public class ItemMatcher : Singleton<ItemMatcher>
         var matches = findMatches(cell);
         if (matches.Count < MIN_MATCH) return;
 
-        _ = MoveManager.Instance.DecreaseMovesAsync();
+        MoveManager.Instance.DecreaseMovesAsync();
 
         if (matches.Count >= MIN_MATCH_HINT)
         { 
